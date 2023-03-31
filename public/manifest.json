@@ -1,7 +1,7 @@
 {
-    "short_name": "Wrap Up!",
-    "name": "Wrap Up!",
-    "description": "Todo list or note app.",
+    "short_name": "Keep Me !",
+    "name": "Keep Me !",
+    "description": "Todo list or personal note app. User can create new note, delete old note or mark as done.",
     "icons": [
       {
         "src": "icon/logo192.png",
