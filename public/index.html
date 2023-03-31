@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrap UP !</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="bg-gradient-to-b from-[#E2E2E2] to-[#C9D6FF] w-full min-h-screen flex items-center flex-col bg-fixed"> 
+  <!-- add todo -->
+  <form class="todoForm w-full md:w-3/5 xl:w-1/2 p-4 flex h-fit justify-between gap-4 fixed inset-0 mx-auto z-10">
+    <textarea id="newDo" name="message" class="w-full bg-gray-800 bg-opacity-80 rounded border border-gray-500 focus:border-indigo-500 focus:bg-slate-900 focus:ring-2 focus:ring-indigo-500 h-24 text-base outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out text-white" placeholder="add your notes here..."></textarea>
+    <button class="px-3 py-4 my-auto flex justify-center items-center bg-indigo-500 rounded-lg font-bold hover:bg-indigo-600 text-white text-lg focus:outline-none shadow-2xl shadow-black">ADD</button>
+  </form>
+
+  <!-- todo -->
+  <section class="w-full md:w-[85%] xl:w-9/12 p-4 h-fit flex flex-col items-center mt-28">
+    <h1 class="text-3xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-bold mx-auto mt-4">Your Notes</h1> 
+    <!-- add todos here -->
+    <ul id="todoList" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 h-fit w-full mt-4">
+      
+    </ul>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
